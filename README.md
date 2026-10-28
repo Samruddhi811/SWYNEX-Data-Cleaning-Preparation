@@ -57,3 +57,43 @@ This project helped me understand the importance of data cleaning and validation
 
 **Internship:** SWYNEX Technologies  
 **Task:** Task 1 – Data Cleaning & Preparation
+
+
+# SWYNEX Internship – Task 2: Exploratory Data Analysis
+
+## Project Overview
+This project explores a Netflix Customer Churn dataset using Microsoft Power BI. The purpose is to identify customer patterns, subscription preferences, viewing behavior, and churn trends.
+
+## Tools Used
+- Microsoft Power BI Desktop
+- Power Query
+- DAX measures
+- Data visualization
+
+## Dataset
+The cleaned dataset from Task 1 contains 5,000 customer records and 14 columns.
+
+## Analysis Performed
+- Total customer count
+- Churned customer count and churn rate
+- Customers by subscription type
+- Customer distribution by region
+- Average watch hours by subscription type
+- Favorite genre distribution
+
+
+
+## Files Included
+- `netflix_customer_churn_cleaned.csv` – Cleaned dataset
+- `SWYNEX_Netflix_Customer_Churn_EDA.pbix` – Power BI report
+- `EDA_Dashboard_Screenshot.png` – Dashboard screenshot
+- `README.md` – Project documentation
+
+## Learning Outcomes
+I learned how to import a cleaned dataset into Power BI, create DAX measures, build interactive charts, analyze customer behavior, and communicate findings through a dashboard.
+
+## Conclusion
+This project demonstrates how exploratory data analysis and visualization can help identify patterns in customer data and support better business decisions.
+
+**Internship:** SWYNEX Technologies  
+**Task:** Task 2 – Exploratory Data Analysis
