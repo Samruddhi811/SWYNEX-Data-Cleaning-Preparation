@@ -97,3 +97,83 @@ This project demonstrates how exploratory data analysis and visualization can he
 
 **Internship:** SWYNEX Technologies  
 **Task:** Task 2 – Exploratory Data Analysis
+# SWYNEX Internship – Task 3: Interactive Dashboard
+
+## 1. Project Overview
+This project focuses on building an interactive dashboard using Microsoft Power BI as part of the SWYNEX Technologies Data Analyst Internship.
+
+The dashboard uses a Netflix Customer Churn dataset to analyze customer behavior, subscription preferences, viewing patterns, and customer churn.
+
+## 2. Project Objectives
+- Create an interactive business intelligence dashboard.
+- Display important KPIs using cards.
+- Analyze customer churn and subscription patterns.
+- Compare customer distribution across regions.
+- Explore viewing behavior across subscription types.
+- Provide interactive filters for better data exploration.
+
+## 3. Dataset Information
+- **Dataset:** Netflix Customer Churn
+- **Records:** 5,000 customer records
+- **Columns:** 14
+- **Data Source:** Cleaned dataset prepared in Task 1
+- **Analysis:** Exploratory Data Analysis completed in Task 2
+
+## 4. Tools and Technologies
+- Microsoft Power BI Desktop
+- Power Query
+- DAX (Data Analysis Expressions)
+- GitHub
+
+## 5. Dashboard Features
+
+### Key Performance Indicators (KPIs)
+- Total Customers
+- Churned Customers
+- Customer Churn Rate
+- Average Daily Watch Time
+
+### Visualizations
+- Customer distribution by subscription type
+- Active versus churned customers
+- Customer distribution by region
+- Average watch hours by subscription type
+
+### Interactive Filters
+- Subscription Type
+- Region
+- Favorite Genre
+- Churn Status
+
+The filters allow users to explore different customer segments and analyze the dashboard dynamically.
+
+## 6. Key Insights
+The dashboard is designed to help identify:
+1. The subscription type with the highest number of customers.
+2. The overall customer churn rate.
+3. The region with the highest customer count.
+4. The subscription type with the highest average watch hours.
+5. The most popular customer-preferred genre.
+
+*Note: Final findings should be added after verifying the actual results in Power BI.*
+
+## 7. Project Files
+- `netflix_customer_churn_cleaned.csv` – Cleaned dataset used for analysis.
+- `SWYNEX_Interactive_Dashboard.pbix` – Power BI dashboard file.
+- `Dashboard_Screenshot.png` – Screenshot of the completed dashboard.
+- `README.md` – Project documentation.
+
+## 8. Learning Outcomes
+Through this project, I practiced:
+- Creating KPI cards and DAX measures.
+- Designing charts and interactive slicers.
+- Analyzing customer churn and subscription behavior.
+- Formatting a professional Power BI dashboard.
+- Presenting data insights through visualizations.
+
+## 9. Conclusion
+The interactive dashboard provides a clear overview of customer behavior, subscription patterns, and churn metrics. It helps users explore customer segments and understand important business indicators through interactive visualizations.
+
+**Internship Organization:** SWYNEX Technologies  
+**Task:** Task 3 – Interactive Dashboard  
+**Tool:** Microsoft Power BI
