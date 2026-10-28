@@ -177,3 +177,138 @@ The interactive dashboard provides a clear overview of customer behavior, subscr
 **Internship Organization:** SWYNEX Technologies  
 **Task:** Task 3 – Interactive Dashboard  
 **Tool:** Microsoft Power BI
+
+
+# SWYNEX Final Data Analytics Project
+## Netflix Customer Churn Analysis Using SQL and Power BI
+
+### 1. Project Overview
+This project was completed as part of the SWYNEX Technologies Data Analyst Internship. It combines data cleaning, exploratory data analysis, interactive dashboard development, and business insight documentation into a complete data analytics case study.
+
+The project uses a Netflix Customer Churn dataset to explore customer behavior, subscription preferences, viewing activity, and customer churn.
+
+### 2. Problem Statement
+Customer churn is an important business challenge because losing customers can affect revenue and long-term growth.
+
+The objective of this project is to analyze customer data, identify patterns related to subscriptions and viewing behavior, and present the findings through an interactive Power BI dashboard.
+
+### 3. Project Objectives
+- Clean and prepare raw customer data.
+- Identify data quality issues and correct invalid values.
+- Perform exploratory data analysis (EDA).
+- Calculate customer and churn KPIs.
+- Build an interactive Power BI dashboard.
+- Identify useful business insights and recommendations.
+
+### 4. Dataset Information
+- **Dataset:** Netflix Customer Churn
+- **Number of records:** 5,000
+- **Number of columns:** 14
+- **Data used:** Customer, subscription, viewing, and churn information
+- **Tools:** SQL Server and Microsoft Power BI
+
+The cleaned dataset prepared in Task 1 was used for the analysis and dashboard.
+
+### 5. Data Cleaning and Preparation
+Data cleaning was performed using SQL Server.
+
+The process included:
+- Checking the dataset for missing values.
+- Checking for duplicate records and duplicate customer IDs.
+- Reviewing column data types.
+- Trimming unnecessary spaces from text values.
+- Checking for invalid daily watch-time values.
+- Setting daily watch-time values below 0 or above 24 hours to NULL.
+- Creating and validating the cleaned dataset.
+
+The initial dataset contained 10 daily watch-time values above 24 hours. These were treated as invalid and corrected during cleaning.
+
+### 6. Exploratory Data Analysis
+Exploratory analysis was performed to understand customer and subscription patterns.
+
+The analysis included:
+- Total customer count.
+- Churned customer count.
+- Customer churn rate.
+- Customer distribution by subscription type.
+- Customer distribution by region.
+- Average watch hours by subscription type.
+- Customer distribution by favorite genre.
+
+### 7. Dashboard Development
+An interactive dashboard was developed using Microsoft Power BI.
+
+#### Key Performance Indicators
+- Total Customers
+- Churned Customers
+- Customer Churn Rate
+- Average Daily Watch Time
+
+#### Visualizations
+- Customers by subscription type.
+- Active versus churned customers.
+- Customers by region.
+- Average watch hours by subscription type.
+
+#### Interactive Filters
+- Subscription Type
+- Region
+- Favorite Genre
+- Churn Status
+
+The dashboard allows users to filter customer segments and explore the results interactively.
+
+### 8. Key Business Insights
+The following insights should be completed using the actual results from the Power BI dashboard:
+
+1. **Subscription Analysis:** [Add the subscription type with the highest customer count.]
+2. **Customer Churn:** [Add the actual churn rate and explain what it indicates.]
+3. **Regional Analysis:** [Add the region with the highest customer count.]
+4. **Viewing Behavior:** [Add the subscription type with the highest average watch hours.]
+5. **Genre Preferences:** [Add the most popular genre based on customer count.]
+
+### 9. Business Recommendations
+Based on the verified analysis, possible recommendations include:
+
+- Investigate the customer segments with the highest churn rate.
+- Review customer feedback and usage patterns to understand why customers leave.
+- Develop retention strategies for customer groups at higher risk of churn.
+- Use viewing behavior and genre preferences to improve content recommendations.
+- Monitor churn and subscription KPIs regularly to evaluate business performance.
+
+These recommendations should be refined according to the actual findings.
+
+### 10. Tools and Technologies
+- **SQL Server:** Data cleaning and validation.
+- **Microsoft Power BI:** Dashboard development and visualization.
+- **DAX:** KPI calculations and churn measures.
+- **Power Query:** Data preparation and transformation.
+- **GitHub:** Project documentation and version sharing.
+
+### 11. Project Files
+- `netflix_customer_churn.csv` — Original dataset, if included.
+- `netflix_customer_churn_cleaned.csv` — Cleaned dataset.
+- `clean_netflix_customer_churn.sql` — SQL cleaning script.
+- `SWYNEX_Interactive_Dashboard.pbix` — Interactive Power BI dashboard.
+- `Dashboard_Screenshot.png` — Dashboard screenshot.
+- `README.md` — Final project documentation.
+
+### 12. Learning Outcomes
+Through this project, I gained practical experience in:
+- Identifying and correcting data quality issues.
+- Using SQL for data cleaning and validation.
+- Performing exploratory data analysis.
+- Creating DAX measures and KPI cards.
+- Designing interactive dashboards in Power BI.
+- Translating data analysis into business insights.
+- Documenting and presenting an end-to-end analytics project.
+
+### 13. Conclusion
+This project demonstrates an end-to-end data analytics workflow, from raw data cleaning and exploratory analysis to interactive dashboard development and business recommendations.
+
+It helped strengthen my practical skills in SQL, Power BI, data visualization, and business-focused data analysis.
+
+**Organization:** SWYNEX Technologies  
+**Project:** Final Data Analytics Project  
+**Dataset:** Netflix Customer Churn
+
